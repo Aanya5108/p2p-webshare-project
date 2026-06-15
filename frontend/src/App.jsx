@@ -3,7 +3,7 @@ import { io } from "socket.io-client";
 import Peer from "simple-peer/simplepeer.min.js";
 import "./App.css";
 
-const socket = io("http://localhost:8000", {
+const socket = io("https://p2p-webshare-project-backend.onrender.com", {
   transports: ["websocket"],
 });
 
